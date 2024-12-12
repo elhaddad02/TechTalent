@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap');
+
+@page {
+    size: A4;
+    margin: 20mm;
+}
+
+body {
+    font-family: 'Ubuntu', Arial, sans-serif;
+    margin: 0;
+    /* padding: 0 10px 10px 10px; */
+
+	
+	
+}
+hr{
+    background-color: #666;
+    margin-bottom: 10px;
+
+}
+.resume {
+    width: 100%;
+    margin: 0 auto;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.base {
+    width: 100%;
+    /* border-bottom: 1px solid #ccc; */
+    /* padding-bottom: 20px;
+    margin-bottom: 20px; */
+}
+
+.profile {
+    /* width: 100%; */
+    text-align: center;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+
+.photo img {
+    width: 120px;
+    height: 150px;
+    background: #eee;
+    display: inline-block;
+    line-height: 100px;
+    vertical-align: middle;
+    margin: 10px;
+    padding: 10px;
+}
+
+
+
+.info {
+    text-align: center;
+}
+
+.name {
+    font-size: 28px;
+    margin-bottom: -10px;
+    padding-top: -10px;
+    text-align: center;
+    color: #6666667d;
+    width: 100%;
+    font-weight: bold;
+}
+.name h1{
+    margin: 0;
+    padding: 0;
+}
+
+.job {
+    font-size: 18px;
+    color: #666;
+    margin: 0;
+}
+.about{
+    font-size: 19px;
+    padding-top: 10px;
+}
+.contact div{
+	display: block;
+    font-size: 18px;
+    padding-top: 10px;
+}
+
+h3 {
+    font-size: 26px;
+    font-weight: bold;
+    color: #33333390;
+    margin: 15px 10px -5px  10px;
+}
+
+
+.func {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.func > div {
+	width: 100%;
+    margin-bottom: 20px;
+	font-size: 18px;
+    
+	
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+li span {
+    font-weight: bold;
+}
+
+li small {
+    display: block;
+    color: #666;
+}
+
+.skills-bar {
+    background: #333;
+    height: 10px;
+    position: relative;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.bar {
+    background: #333;
+    height: 100%;
+    width: 0;
+}
+
+.skills-soft svg {
+    width: 50px;
+    height: 50px;
+    display: block;
+    margin: 0 auto;
+}
+
+.cbar {
+    stroke: #333;
+    stroke-width: 5;
+    fill: none;
+    stroke-dasharray: 0;
+    stroke-dashoffset: 0;
+    transition: stroke-dasharray 1s linear, stroke-dashoffset 1s linear;
+}
+
+.interests-items div {
+    /* text-align: center; */
+    margin-bottom: 10px;
+}
+
+
+
+.interests-items div span {
+    font-size: 18px;
+}

@@ -1,0 +1,168 @@
+html {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  color: white;
+  background-image: url(images/bg3.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: Inter, sans-serif;
+}
+
+.container {
+  margin: 0;
+  padding: 48px 0;
+  width: 100%;
+  height: inherit;
+  background-color: #231827dd;
+}
+
+h1,
+p {
+  text-align: center;
+}
+
+h1 {
+  margin: 0;
+  margin-bottom: 16px;
+  font-size: 36px;
+  font-weight: 700;
+  color: #AE445A;
+}
+
+p {
+  margin: 0;
+  font-weight: 200;
+  color: #E8BCB9;
+  font-size: 20px;
+}
+
+form {
+  width: 700px;
+  margin: 48px auto 36px auto;
+  background-color: #13011acc;
+  padding: 48px 36px;
+  border-radius: 10px;
+}
+
+form label:first-of-type {
+  margin-top: 0;
+}
+
+label {
+  display: block;
+  margin: 24px 0;
+  font-size: 18px;
+  color: #E8BCB9;
+}
+
+input,
+button {
+  width: 100%;
+  max-width: auto;
+  height: 50px;
+  background-color: transparent;
+  margin-top: 8px;
+  padding: 8px 8px;
+  border-radius: 0;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid #451952;
+  font-family: Inter, sans-serif;
+  font-size: 14px;
+  box-sizing: border-box;
+  color: #eee;
+}
+select,
+textarea{
+  width: 100%;
+  max-width: auto;
+  /* height: 50px; */
+  background-color: transparent;
+  margin-top: 8px;
+  padding: 8px 8px;
+  border-radius: 0;
+  outline: none;
+  border: none;
+  border: 1px solid #451952;
+  font-family: Inter, sans-serif;
+  font-size: 14px;
+  box-sizing: border-box;
+  color: #eee;
+  margin-bottom: 20px;
+}
+
+select option{
+  color: gray;
+}
+
+
+
+fieldset {
+  border: 0;
+  padding: 0;
+  margin: 0;
+}
+
+fieldset input {
+  min-height: unset;
+  width: 15px;
+  height: 15px;
+  vertical-align: text-line;
+}
+
+fieldset label {
+  margin: 4px 0;
+}
+
+legend {
+  font-size: 18px;
+  margin-bottom: 8px;
+}
+
+button {
+  padding: 12px;
+  background-color: #451952;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 40px;
+}
+
+#formation {
+  border: none;
+  background-color: #09000ccc;
+  border-radius: 5px;
+  padding: 15px 5px;
+  margin: 24px 0;
+  display: flex;
+  justify-content: space-around;
+}
+#formation label{
+  width: 30%;
+}
+#formation label {
+  margin-top: auto;
+}
+#add{
+  border-radius: 16px;
+  padding: 7px;
+  background-color: #451952;
+  cursor: pointer;
+}
+#formation #remove{
+  border-radius: 50%;
+  width: 22px;
+  height: 22px;
+  border: 1 solid red;
+  background-color: rgb(108, 5, 5);
+  color: #eee;
+  text-align: center;
+  align-items: center;
+  font-weight: 600;
+}
